@@ -1,4 +1,4 @@
-This is a project created by Ivan Archibald Bodkin a second year student at IPAM Sierra Leone for group 6 projeect called event link up
+This is a project created by group 6 and Ivan Archibald Bodkin a second year student at IPAM Sierra Leone for group 6 projeect called event link up
  
 1. Ivan Archibald Bodkin bodkinivan@gmail.com Diis 0040 
  
