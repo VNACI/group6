@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Link Up</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>🎉 Event Link Up</h1>
+    <p>You're invited to something amazing. Don't miss out!</p>
+  </header>
+
+  <div class="countdown" id="countdown" data-aos="zoom-in"></div>
+
+  <section data-aos="fade-up">
+    <h2>📅 Event Details</h2>
+    <p>
+      📍 Location: CHAPTER 1 Beach Road, Lumley Aberdeen<br />
+      📆 Date: October 12, 2025<br />
+      ⏰ Time: 4:00 PM
+    </p>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.1781499473256!2d-13.26534652498959!3d8.48154809774413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd2a1b4c23f15b5%3A0xd68e0ea02d033ffc!2sChapter%20One%20Beach%20Bar%20%26%20Restaurant!5e0!3m2!1sen!2ssl!4v1692900321595!5m2!1sen!2ssl"
+        width="100%"
+        height="300"
+        style="border: 0; border-radius: 10px; margin-top: 1rem;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
+
+  <section class="rsvp-form" data-aos="fade-up">
+    <h2>📝 RSVP Now</h2>
+    <form id="rsvp-form" action="https://formspree.io/f/manbpzdg" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="number" name="guests" placeholder="Number of Guests" required />
+
+      <label for="food">Choose Your Food:</label>
+      <select name="food" id="food" required>
+        <option value="Jollof Rice">Jollof Rice</option>
+        <option value="Cassava Leaves">Cassava Leaves</option>
+        <option value="Fufu & Soup">Fufu & Soup</option>
+        <option value="Fried Fish & Plantain">Fried Fish & Plantain</option>
+        <option value="Groundnut Soup">Groundnut Soup</option>
+        <option value="Okra Sauce">Okra Sauce</option>
+        <option value="Crain Crain">Crain Crain</option>
+        <option value="Beans & Fried Plantain">Beans & Fried Plantain</option>
+      </select>
+
+      <label for="drink">Choose Your Drink:</label>
+      <select name="drink" id="drink" required>
+        <option value="Palm Wine">Palm Wine</option>
+        <option value="Soft Drink">Soft Drink</option>
+        <option value="Beer">Beer</option>
+        <option value="Water">Water</option>
+        <option value="Fruit Juice">Fruit Juice</option>
+        <option value="Ginger Beer">Ginger Beer</option>
+        <option value="Sobolo">Sobolo</option>
+        <option value="Lemonade">Lemonade</option>
+      </select>
+
+      <button type="submit">Submit RSVP</button>
+    </form>
+  </section>
+
+  <section class="gallery" data-aos="fade-up">
+    <h2>📸 Photo Gallery</h2>
+    <div class="gallery-grid">
+      <img src="images/pic1.jpg" alt="Event Photo 1" />
+      <img src="images/pic2.jpg" alt="Event Photo 2" />
+      <img src="images/pic3.jpg" alt="Event Photo 3" />
+      <img src="images/pic4.jpg" alt="Event Photo 4" />
+      <img src="images/guest1.jpg" alt="Musa Tombo" />
+      <img src="images/guest2.jpg" alt="Emmerson Bockarie" />
+      <img src="images/guest3.jpg" alt="Kao Denero" />
+      <img src="images/guest4.jpg" alt="Vicky the Poet" />
+      <img src="images/guest5.jpg" alt="Drizilik" />
+    </div>
+  </section>
+
+  <div class="sidebar">
+    <h3>🍽️ Available Food</h3>
+    <ul>
+      <li>Jollof Rice</li>
+      <li>Cassava Leaves</li>
+      <li>Fufu & Soup</li>
+      <li>Fried Fish & Plantain</li>
+      <li>Groundnut Soup</li>
+      <li>Okra Sauce</li>
+      <li>Crain Crain</li>
+      <li>Beans & Fried Plantain</li>
+    </ul>
+    <h3>🥤 Available Drinks</h3>
+    <ul>
+      <li>Palm Wine</li>
+      <li>Soft Drink</li>
+      <li>Beer</li>
+      <li>Water</li>
+      <li>Fruit Juice</li>
+      <li>Ginger Beer</li>
+      <li>Sobolo</li>
+      <li>Lemonade</li>
+    </ul>
+    <h3>🌟 Celebrities That would Atend</h3>
+    <ul>
+      <li>Musa Tombo</li>
+      <li>Emmerson Bockarie</li>
+      <li>Kao Denero</li>
+      <li>Vicky the Poet</li>
+      <li>Drizilik</li>
+      <li>Jimmy B</li>
+      <li>Sia Koroma</li>
+    </ul>
+  </div>
+
+  <section class="share-section" data-aos="fade-up">
+    <h2>📤 Share This Event</h2>
+    <div class="share-buttons">
+      <a
+        href="https://wa.me/?text=Join%20me%20at%20Event%20Link%20Up!%20Happening%20at%20CHAPTER%201%20Beach%20Road,%20Lumley%20Aberdeen.%20RSVP%20Now!"
+        target="_blank"
+        class="whatsapp"
+        >WhatsApp</a
+      >
+      <a
+        href="https://www.facebook.com/sharer/sharer.php?u=https://yourwebsite.com"
+        target="_blank"
+        class="facebook"
+        >Facebook</a
+      >
+      <a
+        href="https://twitter.com/intent/tweet?text=Join%20me%20at%20Event%20Link%20Up!%20Check%20it%20out%20here:%20https://yourwebsite.com"
+        target="_blank"
+        class="twitter"
+        >Twitter (X)</a
+      >
+      <a
+        href="mailto:?subject=You're%20invited!&body=Come%20to%20Event%20Link%20Up%20at%20CHAPTER%201%20Beach%20Road,%20Lumley.%20Details%20at:%20https://yourwebsite.com"
+        class="email"
+        >Email Invite</a
+      >
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Event Link Up | Powered by <strong>Group 6</strong>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
